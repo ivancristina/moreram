@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.0.1">
+    <title>Download RAM</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/ramdl/">
+
+    <!-- Bootstrap core CSS -->
+<link href="bootstrap.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="ramdl.css" rel="stylesheet">
+  </head>
+  <body class="text-center">
+    <div class="ramdl-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="masthead mb-auto">
+    <div class="inner">
+      <h3 class="masthead-brand">RAM.dl</h3>
+      <nav class="nav nav-masthead justify-content-center">
+        <a id="navhome" class="nav-link active" href="#" onclick="home()">Home</a>
+        <a id="navlog" class="nav-link" href="#" onclick="log()">Console</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" role="main" class="inner ramdl collapse show">
+    <h1 class="ramdl-heading">More RAM. For Free.</h1>
+    <p class="lead">Click the button below to initialize your RAM download. Select the desired quantity below.</p>
+    <div id="amounts" class="lead collapse show">
+      <a href="#" class="btn btn-outline-primary" onclick="fr()">4Gb</a>
+	  <a href="#" class="btn btn-outline-secondary" onclick="et()">8Gb</a>
+	  <a href="#" class="btn btn-outline-danger" onclick="sx()">16Gb</a>
+    </div>
+	<div id="dlbox" class="collapse hide">
+		<div id="ramdl" class="mx-auto"></div>
+		<p id="status" class="h5">Initializing...</p>
+	</div>
+  </main>
+  
+<div id="log" class="log text-left collapse hide tvframe">
+  <pre><output>webpack: Compiled successfully.
+webpack: Compiling...
+Hash: 33d8c38093d5e8261eac
+Version: webpack 3.11.0
+Time: 1337ms
+         Asset       Size  Chunks                    Chunk Names
+    ramdl.html    3.42 kB       0  [emitted]         project
+     ramdl.css    3.82 kB       1  [emitted]         project
+      ramdl.js    4.31 kB       2  [emitted]         project
+progressbar.js    72.6 kB       3  [emitted]         dashboard
+ ram_assets.js    0.27 MB       0  [emitted]  [big]  assets
+     moreram.c    2.54 MB       0  [emitted]  [big]  exploit</output></pre>
+</div>
+
+  <footer class="mastfoot mt-auto">
+    <div class="inner">
+      <p>Brought to you by <a href="https://getbootstrap.com/">Ivan Cristina</a>.</p>
+    </div>
+  </footer>
+</div>
+
+<script src="ramdl.js"></script>
+<script src="progressbar.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+</body>
+</html>
